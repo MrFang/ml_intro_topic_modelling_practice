@@ -1,3 +1,9 @@
+# LDA Topic Modelling на русскоязычном корпусе
+
+Практика курса "Введение в машинное обучение" (ИТМО, СПБ 2021).
+
+Тематическое моделирование на корпусе новостей портала "LentaRu" на русском языке.
+
 При подготовке ноутбука использовались материалы:
 1. [LDA topic modelling lenta Kaggle](https://www.kaggle.com/genyagree/lda-topic-modelling/notebook)
 2. [LDA topic modelling visualization](https://towardsdatascience.com/end-to-end-topic-modeling-in-python-latent-dirichlet-allocation-lda-35ce4ed6b3e0)
@@ -21,8 +27,12 @@ pip install pymorphy2
 ## Корпус новостей с Lenta.Ru
   [Ссылка для скачивания](https://www.kaggle.com/yutkin/corpus-of-russian-news-articles-from-lenta)
   
-  Распакуйте `lenta-ru-news.csv` файл в папку `data`
+  Распакуйте `lenta-ru-news.csv` файл в папку [`data`](./data)
 ## Корпус постов про политику с Пикабу
 [Ссылка для скачивания](https://www.kaggle.com/atomin/pikabu-politic-posts)
   
-  Распакуйте `pikabu_posts.csv` файл в папку `data`
+  Распакуйте `pikabu_posts.csv` файл в папку [`data`](./data)
+
+# Результаты
+
+В папке [`results`](./results) добавлена визуализация построенной модели на корпусе новостей портала "LentaRu" без tfidf фильтрации корпуса слов.
